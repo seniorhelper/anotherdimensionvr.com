@@ -1,4 +1,5 @@
 /* ANOTHER DIMENSION — styles. Enormous type, sharp glass, no flashing (slow drifts and fades only). */
+[hidden]{display:none!important}
 :root{--a:#38f0ff;--b:#ff5ad7;--g:#ffd23f;--ink:#f4f7ff;--dim:#aab4d6;--glass:rgba(8,6,24,.72);--f:"Space Grotesk","Segoe UI",system-ui,sans-serif;--d:"Unbounded","Space Grotesk",system-ui,sans-serif}
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;background:#05030f;color:var(--ink);font-family:var(--f);-webkit-font-smoothing:antialiased}
