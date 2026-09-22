@@ -1,0 +1,32 @@
+# Another Dimension
+
+> Another Dimension (https://anotherdimensionvr.com) is a free first-person VR puzzle platformer that runs in a web browser. Every platform exists in Reality A, Reality B or both; the player shifts between realities, even in mid-air, to cross 20 levels in four surreal worlds. It plays on desktop, phones, tablets and WebXR headsets such as the Meta Quest. No download, no account.
+
+## Key facts
+
+- Price: free, runs in the browser.
+- Genre: first-person puzzle platformer and parkour.
+- Core mechanic: shifting between two realities; platforms dissolve in and out as you shift.
+- Hazards and gadgets: one-reality lasers, launch cannons, bounce rings, crumbling and moving platforms.
+- Levels: 20 across four realities, each with three stars (finish, collect every shard, beat par time).
+- Every jump in every level was test-played by an automated runner using the game's own physics.
+- Platforms: desktop and laptop browsers, phones, tablets, and VR headsets through WebXR (tap Enter VR).
+- Progress saves automatically in the browser.
+
+## Pages
+
+- [Play Another Dimension](https://anotherdimensionvr.com/)
+- [The four realities, levels, controls and FAQ](https://anotherdimensionvr.com/realities/)
+
+## The four realities
+
+- The Prism Void: Glass bridges hang in an aurora that never ends. Levels 1 to 5: First Light, Glass Steps, Split Horizon, Aurora Run, The Refraction.
+- The Ink Realm: A world brushed in black ink, where only red is real. Levels 6 to 10: Brushstroke, Red Thread, Ink Rain, Scroll of Falling, The Last Stroke.
+- Liquid Chrome: Mirror towers melt into a sunset that is always setting. Levels 11 to 15: Mercury Mile, Melting Towers, Mirror Maze, Sunset Sprint, The Reflection.
+- The Fractal Core: The center of every dimension, folding in on itself forever. Levels 16 to 20: Folding Stairs, Infinite Echo, Kaleido Drop, The Spiral, The Tesseract.
+
+## Controls
+
+- Computer: WASD move, mouse look, Space jump, E / Shift / right-click shift reality, Esc pause.
+- Touch: joystick move, drag look, JUMP and SHIFT buttons.
+- VR: left stick moves, right stick snap-turns, A jumps, trigger shifts reality.

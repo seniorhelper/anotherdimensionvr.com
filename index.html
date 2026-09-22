@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Another Dimension · Free VR Puzzle Platformer in Your Browser</title><meta name="description" content="Free browser VR game: shift between two realities, even mid-air, across 20 mind-bending levels in four surreal worlds. Plays on desktop, phone and Meta Quest."><link rel="canonical" href="https://anotherdimensionvr.com/"><meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Another Dimension"><meta property="og:title" content="Another Dimension · Free VR Puzzle Platformer in Your Browser"><meta property="og:description" content="Free browser VR game: shift between two realities, even mid-air, across 20 mind-bending levels in four surreal worlds. Plays on desktop, phone and Meta Quest."><meta property="og:url" content="https://anotherdimensionvr.com/"><meta property="og:image" content="https://anotherdimensionvr.com/images/og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Another Dimension · Free VR Puzzle Platformer in Your Browser"><meta name="twitter:description" content="Free browser VR game: shift between two realities, even mid-air, across 20 mind-bending levels in four surreal worlds. Plays on desktop, phone and Meta Quest."><meta name="twitter:image" content="https://anotherdimensionvr.com/images/og-image.jpg">
+<link rel="icon" href="/images/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="theme-color" content="#05030f">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Unbounded:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/ad.css">
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js",
+               "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/" } }
+</script>
+<link rel="modulepreload" href="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js">
+<link rel="modulepreload" href="/js/ad-game.js"><link rel="modulepreload" href="/js/ad-core.js">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://anotherdimensionvr.com/#website",
+   "url": "https://anotherdimensionvr.com/",
+   "name": "Another Dimension",
+   "inLanguage": "en-US",
+   "description": "Free browser VR game: shift between two realities, even mid-air, across 20 mind-bending levels in four surreal worlds. Plays on desktop, phone and Meta Quest."
+  },
+  {
+   "@type": "VideoGame",
+   "@id": "https://anotherdimensionvr.com/#game",
+   "name": "Another Dimension",
+   "url": "https://anotherdimensionvr.com/",
+   "image": "https://anotherdimensionvr.com/images/og-image.jpg",
+   "description": "A free first-person VR puzzle platformer that runs in the web browser. Every platform exists in one of two realities; players shift between them, even in mid-air, across 20 levels in four surreal worlds.",
+   "genre": [
+    "Puzzle",
+    "Platformer",
+    "Parkour",
+    "Adventure"
+   ],
+   "gamePlatform": [
+    "Web browser",
+    "Meta Quest Browser",
+    "Desktop",
+    "Mobile"
+   ],
+   "applicationCategory": "Game",
+   "operatingSystem": "Any (web browser with WebGL)",
+   "playMode": "SinglePlayer",
+   "numberOfPlayers": {
+    "@type": "QuantitativeValue",
+    "value": 1
+   },
+   "inLanguage": "en-US",
+   "isAccessibleForFree": true,
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+   },
+   "keywords": "VR games, free VR games, browser VR game, WebXR game, VR puzzle game, VR platformer, Meta Quest browser games, dimension shifting game"
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://anotherdimensionvr.com/#webpage",
+   "url": "https://anotherdimensionvr.com/",
+   "name": "Another Dimension · Free VR Puzzle Platformer in Your Browser",
+   "description": "Free browser VR game: shift between two realities, even mid-air, across 20 mind-bending levels in four surreal worlds. Plays on desktop, phone and Meta Quest.",
+   "isPartOf": {
+    "@id": "https://anotherdimensionvr.com/#website"
+   },
+   "about": {
+    "@id": "https://anotherdimensionvr.com/#game"
+   },
+   "inLanguage": "en-US",
+   "primaryImageOfPage": "https://anotherdimensionvr.com/images/og-image.jpg",
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     ".big",
+     ".sub"
+    ]
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<div id="stage"></div>
+<div id="ui"></div>
+<div id="err" role="alert" hidden></div>
+<div id="nogl" hidden><div><h1>Another Dimension</h1><p>This game needs WebGL, and this browser has it switched off. Try Chrome, Edge, Safari, Firefox or the Meta Quest Browser.</p><p><a href="/realities/" style="color:#38f0ff">Read about the four realities</a></p></div></div>
+<noscript><div class="pg"><h1>Another Dimension</h1><p class="lede">A free VR puzzle platformer in your browser. It needs JavaScript turned on to play.</p><p><a href="/realities/">Read about the game and its four realities</a></p></div></noscript>
+<script type="module">import { start } from '/js/ad-game.js'; start();</script>
+</body>
+</html>
