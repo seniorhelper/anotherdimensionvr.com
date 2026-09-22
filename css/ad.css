@@ -7,7 +7,7 @@ body{overflow:hidden;overscroll-behavior:none;touch-action:none}
 #stage,#stage canvas{position:fixed;inset:0;width:100%;height:100%;display:block}
 #ui{position:fixed;inset:0;z-index:10;pointer-events:none}
 #ui>*{pointer-events:auto}
-#ui>.hud,#ui>.banner{pointer-events:none}
+#ui>.hud,#ui>.banner,#ui>.touch{pointer-events:none}
 :focus-visible{outline:2px solid var(--a);outline-offset:3px}
 .b{font:700 1.05rem/1 var(--f);letter-spacing:.02em;color:var(--ink);background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.25);padding:15px 26px;border-radius:14px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);transition:transform .15s,background .15s}
 .b:hover{background:rgba(255,255,255,.16);transform:translateY(-1px)}
